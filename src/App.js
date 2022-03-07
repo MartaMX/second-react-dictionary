@@ -3,6 +3,7 @@ import './App.css';
 import Dictionary from "./Dictionary";
 
 export default function App() {
+  //logo by https://www.flaticon.com/authors/gowi
   return (
     <div className="App">
       <header className="App-header">
