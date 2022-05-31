@@ -1,13 +1,50 @@
-.App-header{
-margin: 50px;
-}
-
-.App-logo{
-  max-width: 200px;
+.App{
+  background-color: #e4f1fe;
+  background-size: cover ;
+  color: #22559c;
+  align-items: center;
+  justify-content: center; 
   display: block;
   margin: 0 auto;
 }
 
+.App-header{
+  padding: 50px;
+  margin-block: 0;
+
+
+}
+#titulo{
+  display: block;
+  margin-left: 50px;
+}
+header{
+  display: flexbox;
+  margin: 0 auto;
+}
+
+.App-logo{
+  max-width: 100px;
+  display: inline-block;
+}
+
+.title{
+  position:relative;
+  top: 20px;
+  padding-left: 50px;
+  font-size: 65px;
+  display: inline;
+  font-weight: 650;
+   
+}
+
 .App-footer{
-  margin: 30px;
+  padding-top: 60px;
+  height: 50vh;
+}
+
+.GitHub{
+  text-decoration: none;
+  font-weight: 700;
+  color: #22b2da;
 }
