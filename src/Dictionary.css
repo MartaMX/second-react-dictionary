@@ -1,2 +1,68 @@
 .Dictionary{
 text-align: center;}
+
+.Dictionary section{
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 15%);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 80%;
+    display: block;
+}
+
+.Dictionary input{
+    background: #e4f1fe;
+    border-style: solid;
+    border-color:#ddd;
+    border-width: 1px;
+    width: 90%;
+    border-radius: 6px;
+    color: rgb(101, 101, 101);
+}
+
+#respuesta{
+    color: #22b2da;
+    font-weight: 700;
+}
+
+.phonetics {
+    margin-top: 15px;
+    height: 22px;
+}
+
+.phonetics a{
+    color: #22b2da;
+    padding: 2px 15px;
+    border: 1px solid #92c4d2;
+    border-radius: 20px;
+    text-decoration: none;
+    
+    transition: all 150ms ease-in-out;
+    margin-right: 10px;
+}
+
+.phonetics a:hover{
+    background-color: #22b2da ;
+    color: white;
+    border: none;
+}
+.examples{
+    opacity: 0.6;
+}
+
+.Synonyms li{
+    font-size: 13px;
+    display: inline-block;
+    padding-right: 15px;
+    color: #22b2da;
+
+}
+
+.img-grid{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 15%);
+}
